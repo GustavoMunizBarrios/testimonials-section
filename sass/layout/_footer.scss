@@ -3,7 +3,7 @@ footer {
     position: absolute;
     width: 100vw;
     height: 40px;
-    bottom: 0;
+    //bottom: 0;
     & .attribution {
         font-size: 11px;
         text-align: center;
@@ -11,5 +11,4 @@ footer {
             color: hsl(228, 45%, 44%); 
         }
     }
-
 }

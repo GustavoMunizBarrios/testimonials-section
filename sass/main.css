@@ -4,7 +4,6 @@ footer {
   position: absolute;
   width: 100vw;
   height: 40px;
-  bottom: 0;
 }
 footer .attribution {
   font-size: 11px;
@@ -34,6 +33,11 @@ Note for text colors:
 /* font family: 
 - Family: [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
 - Weights: 500, 600
+
+CSS rules to specify families
+
+font-family: 'Barlow Semi Condensed', sans-serif; 
+
 */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
