@@ -5,3 +5,8 @@
     border: 0.0625rem solid black;
     padding: 0.4rem 1.625rem 1.625rem 1.625rem;
 }
+@mixin profileImg-styles ($width, $borderColor) {
+    width: $width;
+    border: 1px solid $borderColor;
+    border-radius: 50%;
+}

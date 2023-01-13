@@ -362,7 +362,7 @@ template {
 }
 .main .card__profile-img img {
   width: 1.875rem;
-  border: 0.0625rem solid hsl(263deg, 55%, 52%);
+  border: 1px solid hsl(263deg, 55%, 52%);
   border-radius: 50%;
 }
 .main .card__profile-name p {
