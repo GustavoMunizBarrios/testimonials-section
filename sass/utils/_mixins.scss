@@ -1,0 +1,7 @@
+@mixin card-styles {
+    min-width: 17.25rem;
+    max-width: 31.25rem;
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid black;
+    padding: 0.4rem 1.625rem 1.625rem 1.625rem;
+}

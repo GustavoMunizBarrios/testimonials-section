@@ -6,11 +6,7 @@
     justify-items: center;
     row-gap: 1.25rem;
     & .card {
-        min-width: 17.25rem;
-        max-width: 31.25rem;
-        border-radius: 0.4375rem;
-        border: 0.0625rem solid black;
-        padding: 0.4rem 1.625rem 1.625rem 1.625rem;
+        @include card-styles;
         margin: 0 1.375rem 0 1.375rem;
         &__profile {
             display: grid;
