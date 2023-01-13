@@ -35,6 +35,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
 }
 
 /* Sections
@@ -391,6 +392,18 @@ template {
 .card--1 {
   background-color: hsl(263deg, 55%, 52%);
 }
+.card--1 span {
+  width: 6.5rem;
+  height: 6.375rem;
+  position: absolute;
+  top: 13%;
+  right: 13%;
+  z-index: 0;
+}
+.card--1 span img {
+  position: absolute;
+  z-index: 0;
+}
 .card--2 {
   background-color: hsl(217deg, 19%, 35%);
 }
@@ -432,6 +445,10 @@ template {
 }
 .card__profile-ver--5 p {
   color: hsla(219deg, 29%, 14%, 0.5);
+}
+.card__title {
+  position: relative;
+  z-index: 1;
 }
 .card__title--1 h1 {
   color: white;

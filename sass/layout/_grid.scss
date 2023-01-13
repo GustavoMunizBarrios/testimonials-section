@@ -55,7 +55,19 @@
 
 .card { // Specific styles of the cards
     &--1 {
-    background-color: $primary-01;        
+    background-color: $primary-01;   
+    & span {
+        width: 6.5rem;
+        height: 6.375rem;
+        position: absolute;
+        top: 13%;
+        right: 13%;
+        z-index: 0;
+        & img {
+            position: absolute;
+            z-index: 0;
+        }
+    }     
     }  
     &--2 {
     background-color: $primary-02;
@@ -126,6 +138,8 @@
         }
     }
     &__title {
+        position: relative;
+        z-index: 1;
         &--1 {
             & h1 {
                 color: white;
