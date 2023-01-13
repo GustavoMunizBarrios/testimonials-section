@@ -1,18 +1,4 @@
 @charset "UTF-8";
-footer {
-  text-align: center;
-  position: absolute;
-  width: 100vw;
-  height: 40px;
-}
-footer .attribution {
-  font-size: 11px;
-  text-align: center;
-}
-footer .attribution a {
-  color: hsl(228deg, 45%, 44%);
-}
-
 /*
 Note for text colors:
 
@@ -345,4 +331,73 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.main {
+  padding: 4rem 0 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  row-gap: 1.25rem;
+}
+.main .card {
+  min-width: 17.25rem;
+  max-width: 31.25rem;
+  border-radius: 0.4375rem;
+  border: 0.0625rem solid black;
+  padding: 0.4rem 1.625rem 1.625rem 1.625rem;
+  margin: 0 1.375rem 0 1.375rem;
+}
+.main .card__profile {
+  display: grid;
+  grid-template-columns: 2.3rem 9.375rem;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
+}
+.main .card__profile-img {
+  grid-row: 1/3;
+  justify-self: center;
+  align-self: center;
+}
+.main .card__profile-img img {
+  width: 1.875rem;
+  border: 0.0625rem solid hsl(263deg, 55%, 52%);
+  border-radius: 50%;
+}
+.main .card__profile-name p {
+  margin: 1.25rem 0 0 0.9375rem;
+  font-size: 0.8125rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.main .card__profile-ver {
+  grid-column-start: 2;
+}
+.main .card__profile-ver p {
+  margin: 0 0 1.25rem 0.9375rem;
+  font-size: 0.6875rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.main .card__title h1 {
+  font-size: 1.3125rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+}
+.main .card__text {
+  font-size: 0.8125rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=main.css.map */
