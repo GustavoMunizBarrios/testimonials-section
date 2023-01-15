@@ -10,3 +10,21 @@
     border: 1px solid $borderColor;
     border-radius: 50%;
 }
+
+@mixin breakpoint($point) {
+    @if $point == medium01 {
+        @media (min-width: $breakpoint-medium01) {
+            @content;
+        }
+    }
+    @else if $point == medium02 {
+        @media (min-width: $breakpoint-medium02) {
+            @content;
+        }
+    }
+    @else if $point == large {
+        @media (min-width: $breakpoint-large) {
+            @content;
+        }
+    }
+}
