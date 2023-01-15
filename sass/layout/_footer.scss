@@ -4,6 +4,9 @@ footer {
     width: 100vw;
     height: 40px;
     background-color: $neutral-02;
+    @include breakpoint(large) {
+        transform: translate(0, 1000%);
+    }
     //bottom: 0;
     & .attribution {
         font-size: 11px;

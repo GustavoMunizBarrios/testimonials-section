@@ -334,6 +334,19 @@ template {
   display: none;
 }
 
+body {
+  background-color: hsl(210deg, 46%, 95%);
+}
+@media (min-width: 1440px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .main {
   padding: 4rem 0 4rem 0;
   display: grid;
@@ -341,12 +354,11 @@ template {
   grid-template-rows: auto;
   justify-items: center;
   row-gap: 1.25rem;
-  background-color: hsl(210deg, 46%, 95%);
 }
 @media (min-width: 1440px) {
   .main {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 263px);
+    grid-template-rows: repeat(2, auto);
     grid-template-areas: "card1 card1 card2 card5" "card3 card4 card4 card5";
     -moz-column-gap: 1.6rem;
          column-gap: 1.6rem;
@@ -363,6 +375,7 @@ template {
 @media (min-width: 1440px) {
   .main .card {
     margin: 0;
+    min-width: 13.25rem;
   }
 }
 .main .card__profile {
@@ -427,6 +440,12 @@ template {
 @media (min-width: 1100px) {
   .main .card--1 span {
     right: 32%;
+  }
+}
+@media (min-width: 1440px) {
+  .main .card--1 span {
+    top: 22.5%;
+    right: 56.5%;
   }
 }
 .main .card--2 {
@@ -532,6 +551,11 @@ footer {
   width: 100vw;
   height: 40px;
   background-color: hsl(210deg, 46%, 95%);
+}
+@media (min-width: 1440px) {
+  footer {
+    transform: translate(0, 1000%);
+  }
 }
 footer .attribution {
   font-size: 11px;
