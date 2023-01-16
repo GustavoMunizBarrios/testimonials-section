@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My Github](https://github.com/GustavoMunizBarrios/testimonials-section)
-- Live Site URL: [ URL ](https://your-live-site-url.com)
+- Live Site URL: [ URL ](https://testimonials-section-gold.vercel.app/)
 
 ### Built with
 
